@@ -73,7 +73,7 @@ Two ways to install, depending on whether you want a managed plugin or a plain s
 In Claude Code, add the marketplace and install the plugin:
 
 ```
-/plugin marketplace add Kyaa-A/handoff
+/plugin marketplace add codewithasnari/handoff
 /plugin install handoff@handoff
 ```
 
@@ -84,7 +84,7 @@ You get version tracking, managed updates, startup update notices, and the names
 Copy the skill folder into your personal skills directory:
 
 ```bash
-git clone https://github.com/Kyaa-A/handoff.git
+git clone https://github.com/codewithasnari/handoff.git
 cp -r handoff/skills/handoff ~/.claude/skills/handoff
 ```
 
@@ -95,7 +95,7 @@ Installed this way the skill triggers automatically, but the `/handoff:save` and
 Add the Git-backed marketplace and install the plugin:
 
 ```bash
-codex plugin marketplace add Kyaa-A/handoff
+codex plugin marketplace add codewithasnari/handoff
 codex plugin add handoff@handoff
 ```
 
@@ -106,7 +106,7 @@ Codex plugins include the skill and startup update check. In a fresh session, op
 Codex uses the same skill format, so the `skills/handoff` folder drops straight into your Codex skills directory:
 
 ```bash
-git clone https://github.com/Kyaa-A/handoff.git
+git clone https://github.com/codewithasnari/handoff.git
 cp -r handoff/skills/handoff ~/.agents/skills/handoff
 ```
 
@@ -162,4 +162,4 @@ The `handoff` skill itself triggers automatically on phrases like the ones above
 
 ## License
 
-MIT. Copyright (c) 2026 Asnari (Kyaa-A). See [LICENSE](LICENSE).
+MIT. Copyright (c) 2026 Asnari (codewithasnari). See [LICENSE](LICENSE).

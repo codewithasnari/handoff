@@ -7,14 +7,14 @@ import { join } from 'node:path';
 const CONFIG = {
   claude: {
     manifest: '.claude-plugin/plugin.json',
-    remote: 'https://raw.githubusercontent.com/Kyaa-A/handoff/main/.claude-plugin/plugin.json',
+    remote: 'https://raw.githubusercontent.com/codewithasnari/handoff/main/.claude-plugin/plugin.json',
     message(installed, latest) {
       return `handoff ${installed} -> ${latest} update available\nRun:\n  claude plugin marketplace update handoff\n  claude plugin update handoff@handoff\nThen restart Claude Code or run /reload-plugins.`;
     },
   },
   codex: {
     manifest: '.codex-plugin/plugin.json',
-    remote: 'https://raw.githubusercontent.com/Kyaa-A/handoff/main/.codex-plugin/plugin.json',
+    remote: 'https://raw.githubusercontent.com/codewithasnari/handoff/main/.codex-plugin/plugin.json',
     message(installed, latest) {
       return `handoff ${installed} -> ${latest} update available\nRun:\n  codex plugin marketplace upgrade handoff\n  codex plugin remove handoff@handoff\n  codex plugin add handoff@handoff\nThen start a new Codex session.`;
     },

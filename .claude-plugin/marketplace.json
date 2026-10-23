@@ -13,8 +13,8 @@
       "author": {
         "name": "Asnari Pacalna"
       },
-      "homepage": "https://github.com/Kyaa-A/handoff",
-      "repository": "https://github.com/Kyaa-A/handoff",
+      "homepage": "https://github.com/codewithasnari/handoff",
+      "repository": "https://github.com/codewithasnari/handoff",
       "license": "MIT",
       "keywords": ["handoff", "session", "context", "continuity"],
       "category": "productivity"

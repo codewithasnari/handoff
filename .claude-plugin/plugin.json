@@ -5,10 +5,10 @@
   "version": "0.4.6",
   "author": {
     "name": "Asnari Pacalna",
-    "url": "https://github.com/Kyaa-A"
+    "url": "https://github.com/codewithasnari"
   },
-  "homepage": "https://github.com/Kyaa-A/handoff",
-  "repository": "https://github.com/Kyaa-A/handoff",
+  "homepage": "https://github.com/codewithasnari/handoff",
+  "repository": "https://github.com/codewithasnari/handoff",
   "license": "MIT",
   "keywords": ["handoff", "session", "context", "memory", "continuity", "claude-code", "codex"]
 }
